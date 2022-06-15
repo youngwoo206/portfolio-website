@@ -10,7 +10,7 @@ function Navbar() {
     
       <header className='nav'>
       
-        <a className='resume' href="/resume/ResumeYoungwooLee.pdf" download>Resume</a>
+        <a className='resume' href="/resume/YoungwooLeeSoftwareResume.pdf" download>Resume</a>
         
         <nav className="navLinks">
           <Link class='navLink' to="aboutme"  >About Me</Link>
