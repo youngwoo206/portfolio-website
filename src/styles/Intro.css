@@ -1,0 +1,55 @@
+
+
+
+.introLeft {
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+    background-image: url(../assets/backgroundPlaceholder.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.introLeft .tag{
+    display: inline-block;
+    padding-top: 100px;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+
+}
+.tag h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.introLeft .bio{
+    position: absolute;
+    opacity: 80%;
+    bottom: 0px;
+    width: 3%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    right: 0px;
+    padding-left: 4%;
+    padding-top: 50px;
+    display: table-row; 
+    text-align: left;
+    transition: 0.5s;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.bio:hover{
+    width: 25%;
+    transition: 0.5s;
+}
+

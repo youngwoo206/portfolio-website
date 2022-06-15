@@ -1,0 +1,41 @@
+
+.navbar{
+    background-color: black;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
+
+.navLink{
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: larger;
+}
+
+.navLink:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.resume{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: larger;
+}
+
+.resume:hover{
+    cursor: pointer;
+    color: aquamarine;
+}

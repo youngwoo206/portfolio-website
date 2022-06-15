@@ -1,0 +1,44 @@
+
+.aboutMeBody{
+    background-color: #070807;
+
+    color: white;
+
+}
+
+
+.aboutMeSum{
+    padding-top: 100px;
+    width: 70%;
+    margin: auto;
+    font-size: larger;
+}
+
+.para{
+    padding-top: 20px;
+}
+
+.aboutMeSum .footLink{
+    color: aquamarine;    
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+
+.footLink:hover{
+    cursor: pointer;
+    color: white;
+    transition: ease 0.3s;
+}
+
+
+
+.skillSum{
+    padding-top: 100px;
+    background-color: #070807;
+
+}
+
+.skillGrid{
+    width: 80%;
+    margin: auto;
+}

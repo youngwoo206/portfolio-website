@@ -1,0 +1,57 @@
+.skillsCard .toggle{
+    background: grey;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.skillsCard .content{
+    border: 1px solid black;
+    width: 380px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    background: grey;
+    text-align: left;
+    padding-left: 40px;
+}
+
+
+.skillsCard .contentParent{
+    height: 0px;
+    overflow: hidden;
+    transition: height ease 0.4s;
+}
+
+.mainList{
+    font-size: 1.5rem;
+    padding-top: 10px;
+    
+}
+
+.subList{
+    font-size: 1rem;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.skillLink{
+    color: white;
+    text-decoration: none;
+    transition: ease 0.3s;
+    
+}
+
+.skillLink:hover{
+    cursor: pointer;
+    color: lightgray;
+    font-size: 1rem;
+    transition: ease 0.3s;
+    
+}
+
+  
+
