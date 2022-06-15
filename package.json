@@ -1,7 +1,7 @@
 {
   "name": "personalwebsite",
   "version": "0.1.0",
-  "homepage": "https://harmonious-clafoutis-a6c4da.netlify.app/",
+  "homepage": "https://youngwoolee.ca",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
