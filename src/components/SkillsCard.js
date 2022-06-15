@@ -6,8 +6,7 @@ function SkillsCard(props) {
     const [isOpen, setIsOpen] = useState(false);
 
     const parentRef = useRef();
-
-    {/*if (parentRef.current) console.log(parentRef.current.scrollHeight)*/ }
+ 
 
     return (
         <div className="skillsCard">

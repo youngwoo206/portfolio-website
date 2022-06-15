@@ -6,7 +6,7 @@ const JobCard = (props) => {
     >
       <div class="row justify-content-center">
         <div class="col-12 col-md-4 jobCardLogo">
-          <img src={props.pic} />
+          <img src={props.pic} alt='this is a profile pic'/>
         </div>
         <div class="col-12 col-md-8 jobCardName" id={props.id}>
           <h2>{props.name}</h2>

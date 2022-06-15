@@ -28,8 +28,9 @@ function Footer() {
             href="https://www.linkedin.com/in/youngwoo-lee-123b63198/"
             className="link"
             target="_blank"
+            rel="noreferrer"
           >
-            <img src={linkedInPic} className="imgLink" />
+            <img src={linkedInPic} className="imgLink" alt='this is a pic'/>
           </a>
         </div>
         <div class="col-4 linkContainer">
@@ -37,8 +38,9 @@ function Footer() {
             href="mailto:youngwoo206@gmail.com"
             className="link"
             target="_blank"
+            rel="noreferrer"
           >
-            <img src={gmailPic} className="imgLink" />
+            <img src={gmailPic} className="imgLink" alt='this is a pic'/>
           </a>
         </div>
         <div class="col-4 linkContainer">
@@ -46,8 +48,9 @@ function Footer() {
             href="https://github.com/youngwoo206"
             className="link"
             target="_blank"
+            rel="noreferrer"
           >
-            <img src={githubPic} className="imgLink" />
+            <img src={githubPic} className="imgLink" alt='this is a pic'/>
           </a>
         </div>
       </div>

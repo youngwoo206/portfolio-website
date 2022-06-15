@@ -6,12 +6,6 @@ import { Carousel } from "react-responsive-carousel";
 import mosExcel from "../assets/mosExcel.png";
 import certPlaceholder from "../assets/certPlaceholder.png";
 
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 120, itemsToShow: 4 },
-];
 
 function Certifications() {
   return (

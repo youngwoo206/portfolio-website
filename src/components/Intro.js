@@ -1,10 +1,9 @@
-import Selfie from "../assets/backgroundPlaceholder.jpg";
 import "../styles/Intro.css";
 
 const Intro = () => {
   return (
     <div className="introContainer">
-      {/*<div className="introLeft" style={{ backgroundImage: `url(${Selfie})` }}>*/}
+      
 
       <div className="introLeft">
         <div className="tag">
