@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.a3d5de67.css",
+    "main.js": "/portfolio-website/static/js/main.7b6eb512.js",
+    "static/js/787.6568e1bc.chunk.js": "/portfolio-website/static/js/787.6568e1bc.chunk.js",
+    "static/media/backgroundPlaceholder.jpg": "/portfolio-website/static/media/backgroundPlaceholder.56c223fd9b9035bc19fa.jpg",
+    "static/media/certPlaceholder.png": "/portfolio-website/static/media/certPlaceholder.cc3d41cff79f04aec6ae.png",
+    "static/media/nissanLogo.jpg": "/portfolio-website/static/media/nissanLogo.761f6e17c765bbb46c57.jpg",
+    "static/media/uwaterlooLogo.jpg": "/portfolio-website/static/media/uwaterlooLogo.2b818c3a844d40f603b5.jpg",
+    "static/media/rogersLogo.png": "/portfolio-website/static/media/rogersLogo.d524ffc16e12b913d676.png",
+    "static/media/mosExcel.png": "/portfolio-website/static/media/mosExcel.c94968b62f4a3422f89f.png",
+    "static/media/gmail.jpeg": "/portfolio-website/static/media/gmail.d802ff7994b892556c59.jpeg",
+    "index.html": "/portfolio-website/index.html",
+    "main.a3d5de67.css.map": "/portfolio-website/static/css/main.a3d5de67.css.map",
+    "main.7b6eb512.js.map": "/portfolio-website/static/js/main.7b6eb512.js.map",
+    "787.6568e1bc.chunk.js.map": "/portfolio-website/static/js/787.6568e1bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3d5de67.css",
+    "static/js/main.7b6eb512.js"
+  ]
+}
