@@ -5,6 +5,7 @@
     border-radius: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
+    transition: ease 0.5s;
 }
 
 .skillsCard .content{
@@ -52,6 +53,14 @@
     transition: ease 0.3s;
     
 }
+
+
+.toggle:hover{
+    background-color: lightgray;
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+
 
   
 

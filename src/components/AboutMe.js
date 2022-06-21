@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-scroll'
 import '../styles/AboutMe.css';
 import SkillsCard from "./SkillsCard";
+import PersonalPic from "../assets/personalPic.jpg"
 
 
 function AboutMe() {
@@ -9,6 +10,10 @@ function AboutMe() {
     return (
         
         <div className='aboutMeBody' id='aboutme'>
+
+            <div className='photo'>
+                <img src={PersonalPic} className="personalPic" alt="pic of me"/>
+            </div>
 
             <div className='aboutMeSum'>
                 <h1>~a little about me~</h1>
@@ -29,10 +34,7 @@ function AboutMe() {
             <div className='skillSum'>
                 <h1>~summary of skills~</h1>
 
-                <div
-                    className='skillGrid'
-                    style={{ display: "flex", flex: 1, flexDirection: "column" }}
-                >
+                <div className='skillGrid'>
 
                     <div class="row justify-content-center">
 

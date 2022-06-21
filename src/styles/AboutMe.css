@@ -1,4 +1,22 @@
 
+.photo{
+    align-items: center;
+    padding-top: 200px;
+    margin-right: -30px;
+
+}
+
+.personalPic{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
 .aboutMeBody{
     background-color: #070807;
 
@@ -8,10 +26,11 @@
 
 
 .aboutMeSum{
-    padding-top: 100px;
+    padding-top: 50px;
     width: 70%;
     margin: auto;
     font-size: larger;
+    align-items: center;
 }
 
 .para{
@@ -41,4 +60,7 @@
 .skillGrid{
     width: 80%;
     margin: auto;
+    display: "flex";
+    flex: 1;
+    flex-direction: "column";
 }
