@@ -3,7 +3,7 @@
 
 .introLeft {
     overflow: hidden;
-    height: 600px;
+    height: 80vh;
     position: relative;
     background-image: url(../assets/backgroundPlaceholder.jpg);
     background-size: 100%;
@@ -18,7 +18,7 @@
 
 .introLeft .tag{
     display: inline-block;
-    padding-top: 100px;
+    padding-top: 30vh;
     margin: auto;
     font-size: 50px;
     text-align: center;

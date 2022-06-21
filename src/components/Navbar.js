@@ -15,7 +15,8 @@ function Navbar() {
         <nav className="navLinks">
           <Link class='navLink' to="aboutme"  >About Me</Link>
           <Link class='navLink' to="experience"  >Experience</Link>
-          <Link class='navLink' to="certs"  >Certifications</Link>
+        <Link class='navLink' to="certs"  >Certifications</Link>
+        <Link class='navLink' to="certs"  >Certifications</Link>
         </nav>
 
 
