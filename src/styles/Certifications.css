@@ -7,8 +7,19 @@
   color: white;
 }
 
+.certBody{
+  background-color: black;
+}
+
+.body{
+  width: 80%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .carouselDiv {
-  width: 330px;
+  width: 350px;
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -36,14 +47,21 @@
 }
 
 .projectsCarousel{
-  width: 600px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 30px;
+  align-items: center;
+  
 }
 
 .projectCard{
-  width: 550px;
-  height: 300px;
+  
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  max-width: 720px;
+  min-height: 400px;
   background-color: lightgray;
 }
 

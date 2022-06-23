@@ -19,6 +19,8 @@ function Certifications() {
         className='certBody'
         style={{ display: "flex", flex: 1, flexDirection: "column" }}
       >
+        <div class="row justify-content-center body">
+
 
         <div className="projectDiv col-12 col-md-8">
         <Carousel
@@ -27,6 +29,11 @@ function Certifications() {
             showArrows={true}
             showIndicators={true}
             axis='vertical'
+              autoPlay={true}
+              stopOnHover={true}
+              interval="7000"
+              dynamicHeight={true}
+              
           >
             <div>
               <ProjectsCard>
@@ -65,6 +72,8 @@ function Certifications() {
               </div>
             </Carousel>
           </div>
+
+        </div>
 
         </div>
       </div>
