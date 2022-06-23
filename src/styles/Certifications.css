@@ -8,10 +8,11 @@
 }
 
 .carouselDiv {
-  width: 80%;
+  width: 330px;
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
 }
 
 .certCard {
@@ -19,6 +20,7 @@
   width: 250px;
   height: 270px;
   border-radius: 20px;
+  margin: auto;
 }
 
 .certImg {
@@ -31,6 +33,18 @@
 }
 .certInfo {
   padding-top: 10px;
+}
+
+.projectsCarousel{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectCard{
+  width: 550px;
+  height: 300px;
+  background-color: lightgray;
 }
 
 
