@@ -47,23 +47,57 @@
 }
 
 .projectsCarousel{
-  max-width: 800px;
+  max-width: 870px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
-  align-items: center;
+  padding-top: 50px;
   
 }
 
 .projectCard{
-  
-  margin: auto;
-  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 20px;
-  max-width: 720px;
+  max-width: 800px;
   min-height: 400px;
-  background-color: lightgray;
+  background-color: lightgray;  
 }
 
 
+.projectBorder{
+  background-color: black;
+  min-height: 450px;
+}
+
+.imgContainer{
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.projectPic{
+  border-radius: 20px;
+}
+
+.leftProjectCard{
+  align-items: center;
+}
+
+.leftProjectCard p{
+  padding-top: 40px;
+  font-style: italic;
+}
+
+.rightProjectCard h2{
+  padding-top: 30px;
+}
+
+.rightProjectCard p{
+  text-align: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 

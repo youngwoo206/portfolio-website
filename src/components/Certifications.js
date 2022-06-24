@@ -4,6 +4,8 @@ import ProjectsCard from "./ProjectsCard";
 import "../styles/Certifications.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+
+import discord from "../assets/discord.png"
 import mosExcel from "../assets/mosExcel.png";
 import certPlaceholder from "../assets/certPlaceholder.png";
 
@@ -22,29 +24,71 @@ function Certifications() {
         <div class="row justify-content-center body">
 
 
-        <div className="projectDiv col-12 col-md-8">
+        <div className="projectDiv col-12 col-md-12">
         <Carousel
             className="projectsCarousel"
             infiniteLoop={true}
             showArrows={true}
             showIndicators={true}
             axis='vertical'
-              autoPlay={true}
+              autoPlay={false}
               stopOnHover={true}
               interval="7000"
               dynamicHeight={true}
+              partialVisible={false}
               
           >
             <div>
-              <ProjectsCard>
-                <h2>iGem Design Team</h2>
-              </ProjectsCard>
+              <div className='projectBorder'>   
+                  <ProjectsCard
+                    
+                    projectDate="Jun 2022 - Present"
+                    projectName="iGem Design Team"
+                  
+                  
+                  
+                  />
+              </div> 
             </div>
 
             <div>
-              <ProjectsCard>
-                <h2>Fitness Tracker</h2>
-              </ProjectsCard>
+              <div className='projectBorder'>   
+                  <ProjectsCard   
+                      projectImg={discord}
+                      projectDate="Jun 2022 - Present"
+                      projectName="Valorant Discord Bot"
+                  >
+
+                    <p>First conceived by my friend Alex, the DasamRankBot is a discord bot worked on by Alex, Thomas and I. the purpose of the bot
+                      is to track the valorant ranks of the various accounts in our friendgroup.
+                    </p>
+
+                  </ProjectsCard>
+              </div> 
+            </div>
+              
+            <div>
+              <div className='projectBorder'>   
+                  <ProjectsCard
+                    
+                      projectDate="May 2022 - Present"
+                      projectName="Fitness Tracker Website"
+                  
+
+                  />
+              </div> 
+            </div>
+              
+            <div>
+              <div className='projectBorder'>   
+                  <ProjectsCard
+                    
+                      projectDate="Sept 2019 - Dec 2019"
+                      projectName="Midnight Sun Design Team"
+                  
+
+                  />
+              </div> 
             </div>
 
 
@@ -52,7 +96,7 @@ function Certifications() {
         </div>
 
 
-        <div className="carouselDiv col-12 col-md-4"
+        <div className="carouselDiv col-12 col-md-12"
           id="certs"
         >
             <Carousel
