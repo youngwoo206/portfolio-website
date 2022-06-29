@@ -88,18 +88,6 @@ function Certifications() {
               
             <div>
               <div className='projectBorder'>   
-                  <ProjectsCard
-                    
-                      projectDate="May 2022 - Present"
-                      projectName="Fitness Tracker Website"
-                  
-
-                  />
-              </div> 
-            </div>
-              
-            <div>
-              <div className='projectBorder'>   
 
                   <ProjectsCard   
                     projectImg={sun}
@@ -110,7 +98,9 @@ function Certifications() {
                     <h4>Description:</h4>
 
                     <ul>
-                      <li></li>
+                      <li>Joined Midnight Sun as part of electrical subteam</li>
+                      <li>Helped design and assemble PCB boards for solar powered car</li>
+                      <li>Worked in conjunction with mechanical team to assemble controller parts and route wiring</li>
                     </ul>
 
                     <h4>Skills Developed:</h4>
