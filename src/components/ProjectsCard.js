@@ -11,6 +11,10 @@ function ProjectsCard(props) {
 
           <p>{props.projectDate}</p>
 
+          <h5>Project Status:</h5>
+
+          <h6>{props.projectStatus}</h6>
+
         </div>
 
         <div className="col-12 col-md-8 rightProjectCard">
